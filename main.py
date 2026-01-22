@@ -126,8 +126,13 @@ def resolve_ffmpeg():
     :return: The path to the FFmpeg executable.
     """
     executable_name = "ffmpeg.exe" if sys.platform.startswith("win") else "ffmpeg"
-    script_root_dir = os.path.dirname(os.path.abspath(__file__))
-    local_bin_path = os.path.join(script_root_dir, "bin", executable_name)
+
+    if getattr(sys, 'frozen', False):
+        base_path = os.path.dirname(sys.executable)
+    else:
+        base_path = os.path.dirname(os.path.abspath(__file__))
+
+    local_bin_path = os.path.join(base_path, "bin", executable_name)
     if os.path.isfile(local_bin_path):
         return local_bin_path
 
@@ -138,7 +143,7 @@ def resolve_ffmpeg():
     print("Error: FFmpeg not installed.")
     raise typer.Exit(1)
 
-@app.command(epilog="Example 1: asciiv example.mp4 --scale=0.5 --loop.\n Example 2: asciiv --scale 0.5 --speed 2.0 --volume=0.5 example.mp4")
+@app.command(epilog="Some terminals can 'zoom in and out' using Ctrl+Plus/Minus. Zooming out may improve quality at the cost of performance.")
 def play(
     video: str = typer.Argument(..., help="The path to the video file you want to play."),
     scale: float = typer.Option(1.0, help="Scale factor for the video size relative to terminal width."),

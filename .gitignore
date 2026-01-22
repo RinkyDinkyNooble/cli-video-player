@@ -1,2 +1,5 @@
 /.venv
-/bin/*
+/bin
+/build
+/dist
+/asciiv.spec

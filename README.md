@@ -82,6 +82,10 @@ asciiv video.mp4 --charset " .:-=+*#%@"
 
 - **Stop Playback**: Press `Ctrl+C` to exit the player safely.
 
+## Tips
+
+- **Zooming**: Some terminals can 'zoom in and out' using `Ctrl`+`+`/`-`. Zooming out may improve quality at the cost of performance.
+
 ## Troubleshooting
 
 - **"Error: FFmpeg not installed"**: Ensure FFmpeg is installed and added to your system PATH, or place the executable in a `bin/` folder within the project directory.
