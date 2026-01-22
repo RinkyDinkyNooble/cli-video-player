@@ -11,7 +11,7 @@ import tempfile
 
 app = typer.Typer()
 
-DEFAULT_ASCII_CHARS = " ░▒▓█"
+DEFAULT_ASCII_CHARS = " .:-=+*#%@"
 
 playback_stopped = False
 temporary_audio_path = None

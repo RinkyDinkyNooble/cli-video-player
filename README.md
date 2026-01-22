@@ -14,14 +14,31 @@
 - **Looping**: Option to loop video playback continuously.
 - **Cross-Platform**: Designed to work on Windows, macOS, and Linux.
 
+## Showcase
+
+```bash
+asciiv video.mp4
+```
+![Showcase 1](showcase/showcase1.gif)
+
+```bash
+asciiv video.mp4 --charset=" ░▒▓█"
+```
+![Showcase 2](showcase/showcase2.gif)
+
+Zoomed out with ctrl and minus:
+```bash
+asciiv video.mp4
+```
+![Showcase 3](showcase/showcase3.gif)
+
 ## Built With
-
-While **asciiv** requires no external dependencies to run, it is built using these powerful open-source technologies:
-
+Python 3.12.10
 - **FFmpeg**: High-performance audio processing.
 - **OpenCV**: Video frame extraction.
 - **Pygame**: Audio playback.
 - **Typer**: CLI interface.
+- **ASCII Video Player**: Experimental mp4 video player.
 
 ## Installation
 
@@ -75,7 +92,7 @@ asciiv video.mp4 --speed 2.0 --volume 0.5
 
 **4. Use a custom character set for rendering:**
 ```bash
-asciiv video.mp4 --charset " .:-=+*#%@"
+asciiv video.mp4 --charset " ░▒▓█"
 ```
 
 ## Controls
