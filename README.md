@@ -4,7 +4,7 @@
 
 ## Features
 
-- **ASCII Rendering**: Converts video frames to ASCII characters in real-time.
+- **ASCII Rendering**: Converts video frames to ASCII characters.
 - **Audio Support**: Synchronized audio playback.
 - **Customization**:
   - Adjustable video scaling to fit different terminal sizes.
