@@ -107,3 +107,28 @@ asciiv video.mp4 --charset " ░▒▓█"
 
 - **"Error: FFmpeg not installed"**: Ensure FFmpeg is installed and added to your system PATH, or place the executable in a `bin/` folder within the project directory.
 - **Flickering**: The tool uses ANSI escape codes to reset the cursor. Ensure your terminal emulator supports standard ANSI codes.
+
+## License
+
+This project is released under the **CC0 1.0 Universal (Public Domain)** license. See [LICENSE.txt](LICENSE.txt) for details.
+
+### Third-Party Dependencies
+
+This project includes the following third-party libraries, each with their own licenses:
+
+| Package | License | Link |
+|---------|---------|------|
+| Pygments | BSD | https://pygments.org |
+| ascii_mp4_video_player_exp | MIT | https://pypi.org/project/ascii-mp4-video-player-exp/ |
+| click | BSD-3-Clause | https://github.com/pallets/click/ |
+| colorama | BSD | https://github.com/tartley/colorama |
+| markdown-it-py | MIT | https://github.com/executablebooks/markdown-it-py |
+| mdurl | MIT | https://github.com/executablebooks/mdurl |
+| numpy | BSD-3-Clause, 0BSD, MIT, Zlib, CC0-1.0 | https://numpy.org |
+| opencv-python | Apache 2.0 | https://github.com/opencv/opencv-python |
+| pygame | LGPL | https://www.pygame.org |
+| rich | MIT | https://github.com/Textualize/rich |
+| shellingham | ISC | https://github.com/sarugaku/shellingham |
+| typer | MIT | https://github.com/fastapi/typer |
+| typing_extensions | PSF-2.0 | https://github.com/python/typing_extensions |
+| windows-curses | Python Software Foundation License | https://github.com/zephyrproject-rtos/windows-curses |

@@ -1,0 +1,48 @@
+ATTRIBUTION FOR THIRD-PARTY LIBRARIES
+
+This project uses the following open-source libraries under their respective licenses.
+For full license text, see the LICENSES/ directory.
+
+---
+
+MIT License (see LICENSES/MIT.txt):
+- ascii_mp4_video_player_exp: Copyright (c) The Contributors
+- markdown-it-py: Copyright (c) 2020 ExecutableBookProject
+- mdurl: Copyright (c) 2015 Vitaly Puzrin, Alex Kocharin; Copyright (c) 2021 Taneli Hukkinen
+- rich: Copyright (c) 2020 Will McGugan
+- typer: Copyright (c) Sebastián Ramírez
+
+BSD License (see LICENSES/BSD.txt):
+- colorama: Copyright (c) 2010 Jonathan Hartley
+- Pygments: Copyright (c) 2006-2022 by the respective authors
+
+BSD-3-Clause License (see LICENSES/BSD-3-CLAUSE.txt):
+- click: Copyright 2014 Pallets
+- numpy: Copyright (c) 2005-2025, NumPy Developers
+
+0BSD License (see LICENSES/0BSD.txt):
+- numpy (0BSD portion): Copyright (c) NumPy Developers
+
+Zlib License (see LICENSES/Zlib.txt):
+- numpy (Zlib portion): Copyright (c) Jean-loup Gailly and Mark Adler
+
+CC0 1.0 Universal (Public Domain):
+- numpy (CC0 portion): Public Domain
+
+Apache 2.0 License (see LICENSES/Apache-2.0.txt):
+- opencv-python: Copyright (c) Olli-Pekka Heinisuo
+
+ISC License (see LICENSES/ISC.txt):
+- shellingham: Copyright (c) 2018, Tzu-ping Chung
+
+PSF-2.0 License (see LICENSES/PSF-2.0.txt):
+- typing_extensions: Copyright (c) 2001-2023 Python Software Foundation
+- windows-curses: Copyright (c) 2001-2018 Python Software Foundation
+
+LGPL License (see LICENSES/LGPL.txt):
+- pygame: GNU LESSER GENERAL PUBLIC LICENSE Version 2.1
+  Note: Users may relink with alternative pygame versions.
+
+---
+
+For more information about each license, visit: https://opensource.org/licenses/
