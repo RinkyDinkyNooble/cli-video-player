@@ -1,6 +1,6 @@
 # asciiv
 
-**asciiv** is a lightweight, cross-platform command-line interface (CLI) tool that plays video files directly in your terminal using ASCII art. It comes as a standalone binary with all dependencies packaged, featuring audio synchronization and playback controls.
+**asciiv** is a lightweight, command-line interface (CLI) tool that plays video files directly in your terminal using ASCII art. It comes as a standalone binary with all dependencies packaged, featuring audio synchronization and playback controls.
 
 ## Features
 
@@ -12,7 +12,6 @@
   - Volume control.
   - Custom ASCII character sets for rendering.
 - **Looping**: Option to loop video playback continuously.
-- **Cross-Platform**: Designed to work on Windows, macOS, and Linux.
 
 ## Showcase
 
@@ -42,10 +41,15 @@ Python 3.12.10
 
 ## Installation
 
-1. **Download**: Get the latest release for your operating system.
-2. **Run**: Open your terminal and navigate to the folder containing the binary.
+### Windows
 
-   *Optional*: Add the folder to your system's PATH to run `asciiv` from anywhere.
+1. **Download**: Get the latest release (asciiv-windows.zip)
+2. **Extract**: Unzip the downloaded file to your desired location
+3. **Run**: Open your terminal in the extracted folder or navigate to that directory
+4. **Execute**: 
+```bash
+.\asciiv.exe --help
+```
 
 ## Usage
 
