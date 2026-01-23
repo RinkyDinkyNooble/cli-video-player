@@ -41,7 +41,7 @@ Python 3.12.10
 
 ## Installation
 
-### Windows
+### Windows 10 & 11
 
 1. **Download**: Get the latest release (asciiv-windows.zip)
 2. **Extract**: Unzip the downloaded file to your desired location
