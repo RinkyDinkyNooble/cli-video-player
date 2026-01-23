@@ -132,3 +132,18 @@ This project includes the following third-party libraries, each with their own l
 | typer | MIT | https://github.com/fastapi/typer |
 | typing_extensions | PSF-2.0 | https://github.com/python/typing_extensions |
 | windows-curses | Python Software Foundation License | https://github.com/zephyrproject-rtos/windows-curses |
+
+## FFmpeg Notice
+
+This release bundles FFmpeg binaries, distributed under the LGPL license (see LICENSES/LGPL.txt).
+
+### Using Alternative FFmpeg Builds
+
+You may compile and use your own FFmpeg version:
+1. Download or compile FFmpeg from https://github.com/FFmpeg/FFmpeg
+2. Place the FFmpeg executable in the `bin/` folder (or update PATH)
+3. asciiv will use your version instead
+
+### FFmpeg Source Code
+
+FFmpeg source code is available at: https://github.com/FFmpeg/FFmpeg

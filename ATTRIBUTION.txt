@@ -42,6 +42,9 @@ PSF-2.0 License (see LICENSES/PSF-2.0.txt):
 LGPL License (see LICENSES/LGPL.txt):
 - pygame: GNU LESSER GENERAL PUBLIC LICENSE Version 2.1
   Note: Users may relink with alternative pygame versions.
+- FFmpeg: Copyright (c) 2003 Fabrice Bellard and FFmpeg Contributors
+  Bundled with this release. Source: https://github.com/FFmpeg/FFmpeg
+  Users may relink with alternative FFmpeg versions.
 
 ---
 
