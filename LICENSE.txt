@@ -126,19 +126,8 @@ THIRD-PARTY DEPENDENCIES
 The asciiv project includes the following third-party libraries, each 
 distributed under their respective licenses:
 
-- Pygments (BSD License)
-- ascii_mp4_video_player_exp (MIT License)
-- click (BSD-3-Clause License)
-- colorama (BSD License)
-- markdown-it-py (MIT License)
-- mdurl (MIT License)
-- numpy (BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0)
 - opencv-python (Apache Software License)
 - pygame (GNU Library or Lesser General Public License (LGPL))
-- rich (MIT License)
-- shellingham (ISC License)
 - typer (MIT License)
-- typing_extensions (PSF-2.0 License)
-- windows-curses (Python Software Foundation License)
 
 All dependencies are included and used in compliance with their respective licenses.

@@ -1,11 +1,11 @@
 # asciiv
 
-**asciiv** is a lightweight, command-line interface (CLI) tool that plays video files directly in your terminal using ASCII art. It comes as a standalone binary with all dependencies packaged, featuring audio synchronization and playback controls.
+**asciiv** is a lightweight, command-line interface (CLI) tool that plays video files directly in your terminal using ASCII art.
 
 ## Features
 
 - **ASCII Rendering**: Converts video frames to ASCII characters.
-- **Audio Support**: Synchronized audio playback.
+- **Audio Support**: Synchronized audio playback with automatic speed adjustment.
 - **Customization**:
   - Adjustable video scaling to fit different terminal sizes.
   - Variable playback speed (slow motion or fast forward).
@@ -37,7 +37,6 @@ Python 3.12.10
 - **OpenCV**: Video frame extraction.
 - **Pygame**: Audio playback.
 - **Typer**: CLI interface.
-- **ASCII Video Player**: Experimental mp4 video player.
 
 ## Installation
 
@@ -49,7 +48,7 @@ Python 3.12.10
 4. **Execute**: 
 ```bash
 .\asciiv.exe --help
-```
+   ```
 
 ## Usage
 
@@ -73,7 +72,7 @@ asciiv [VIDEO_PATH] [OPTIONS]
 | `--speed FLOAT` | `1.0` | Playback speed multiplier (e.g., `2.0` for 2x, `0.5` for half speed). |
 | `--volume FLOAT` | `1.0` | Audio volume level between `0.0` (mute) and `1.0` (max). |
 | `--loop` | `False` | Enable to play the video continuously in a loop. |
-| `--charset TEXT` | `" ░▒▓█"` | String of characters to use for ASCII rendering (ordered from dark to light). |
+| `--charset TEXT` | `" .:-=+*#%@"` | String of characters to use for ASCII rendering (ordered from dark to light). |
 | `--disable-audio` | `False` | Disable audio playback entirely. |
 | `--help` | | Show the help message and exit. |
 
@@ -122,20 +121,9 @@ This project includes the following third-party libraries, each with their own l
 
 | Package | License | Link |
 |---------|---------|------|
-| Pygments | BSD | https://pygments.org |
-| ascii_mp4_video_player_exp | MIT | https://pypi.org/project/ascii-mp4-video-player-exp/ |
-| click | BSD-3-Clause | https://github.com/pallets/click/ |
-| colorama | BSD | https://github.com/tartley/colorama |
-| markdown-it-py | MIT | https://github.com/executablebooks/markdown-it-py |
-| mdurl | MIT | https://github.com/executablebooks/mdurl |
-| numpy | BSD-3-Clause, 0BSD, MIT, Zlib, CC0-1.0 | https://numpy.org |
 | opencv-python | Apache 2.0 | https://github.com/opencv/opencv-python |
 | pygame | LGPL | https://www.pygame.org |
-| rich | MIT | https://github.com/Textualize/rich |
-| shellingham | ISC | https://github.com/sarugaku/shellingham |
 | typer | MIT | https://github.com/fastapi/typer |
-| typing_extensions | PSF-2.0 | https://github.com/python/typing_extensions |
-| windows-curses | Python Software Foundation License | https://github.com/zephyrproject-rtos/windows-curses |
 
 ## FFmpeg Notice
 
