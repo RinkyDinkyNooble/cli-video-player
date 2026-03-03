@@ -1,0 +1,24 @@
+Source: asciiv
+Section: utils
+Priority: optional
+Maintainer: RinkyDinkyNooble <safetrusted.fineness278@passinbox.com>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.6.2
+Homepage: https://github.com/RinkyDinkyNooble/cli-video-player
+Rules-Requires-Root: no
+
+Package: asciiv
+Architecture: all
+Depends: ${misc:Depends},
+ python3 (>= 3.12),
+ python3-opencv | python3-cv2,
+ python3-pygame,
+ python3-typer,
+ ffmpeg
+Description: CLI video player that renders video as ASCII art in the terminal
+ asciiv plays video files directly in your terminal window by converting
+ each frame into ASCII characters. It supports audio playback via FFmpeg
+ and pygame, with controls for scale, speed, volume, looping, and custom
+ character sets.
+ .
+ Requires FFmpeg to be installed for audio extraction and sync.
