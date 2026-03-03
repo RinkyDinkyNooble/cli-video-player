@@ -6,7 +6,7 @@ import signal
 import os; os.environ["PYGAME_HIDE_SUPPORT_PROMPT"] = "1"
 import pygame
 import typer
-import subprocess
+import subprocess # nosec b404
 import tempfile
 
 app = typer.Typer()
@@ -98,7 +98,7 @@ def extract_audio(ffmpeg_executable, source_video_path, playback_speed):
         current_speed_factor *= 2.0
     audio_filters.append(f"atempo={current_speed_factor}")
 
-    subprocess.run(
+    subprocess.run( # nosec b603
         [
             ffmpeg_executable,
             "-y",
