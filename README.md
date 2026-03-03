@@ -31,25 +31,6 @@ asciiv video.mp4
 ```
 ![Showcase 3](showcase/showcase3.gif)
 
-## Built With
-Python 3.12.10
-- **FFmpeg**: High-performance audio processing.
-- **OpenCV**: Video frame extraction.
-- **Pygame**: Audio playback.
-- **Typer**: CLI interface.
-
-## Installation
-
-### Windows 10 & 11
-
-1. **Download**: Get the latest release (asciiv-windows.zip)
-2. **Extract**: Unzip the downloaded file to your desired location
-3. **Run**: Open your terminal in the extracted folder or navigate to that directory
-4. **Execute**: 
-```bash
-.\asciiv.exe --help
-   ```
-
 ## Usage
 
 Run the tool from the command line.
@@ -73,7 +54,7 @@ asciiv [VIDEO_PATH] [OPTIONS]
 | `--volume FLOAT` | `1.0` | Audio volume level between `0.0` (mute) and `1.0` (max). |
 | `--loop` | `False` | Enable to play the video continuously in a loop. |
 | `--charset TEXT` | `" .:-=+*#%@"` | String of characters to use for ASCII rendering (ordered from dark to light). |
-| `--disable-audio` | `False` | Disable audio playback entirely. |
+| `--disable-audio` | | Disable audio playback entirely. |
 | `--help` | | Show the help message and exit. |
 
 ## Examples

@@ -10,8 +10,8 @@ Rules-Requires-Root: no
 Package: asciiv
 Architecture: all
 Depends: ${misc:Depends},
- python3 (>= 3.12),
- python3-opencv | python3-cv2,
+ python3 (>= 3.10),
+ python3-opencv,
  python3-pygame,
  python3-typer,
  ffmpeg
