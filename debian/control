@@ -1,7 +1,7 @@
 Source: asciiv
 Section: utils
 Priority: optional
-Maintainer: RinkyDinkyNooble <safetrusted.fineness278@passinbox.com>
+Maintainer: Ubuntu Launchpad <safetrusted.fineness278@passinbox.com>
 Build-Depends: debhelper-compat (= 13)
 Standards-Version: 4.6.2
 Homepage: https://github.com/RinkyDinkyNooble/cli-video-player
